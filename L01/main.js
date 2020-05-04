@@ -17,18 +17,18 @@ var L01_Worteverdreher;
     }
     function reverseSentence(eingabe_satz) {
         let zeichen;
-        let rev_zeichen;
+        let rev_zeichen = '';
         zeichen = eingabe_satz.split('');
-        for (let i = 0; i < zeichen.length; i++) {
+        for (let i = 1; i <= zeichen.length; i++) {
             rev_zeichen += zeichen[zeichen.length - i];
         }
         return rev_zeichen;
     }
     function reverseWords(eingabe_satz) {
         let woerter;
-        let rev_woerter;
+        let rev_woerter = '';
         woerter = eingabe_satz.split(' ');
-        for (let i = 0; i < woerter.length; i++) {
+        for (let i = 1; i <= woerter.length; i++) {
             rev_woerter += woerter[woerter.length - i] + ' ';
         }
         return rev_woerter;

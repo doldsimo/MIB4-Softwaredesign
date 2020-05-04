@@ -19,11 +19,11 @@ namespace L01_Worteverdreher {
 
 	function reverseSentence(eingabe_satz: string): string {
 		let zeichen: string[];
-		let rev_zeichen: string;
+		let rev_zeichen: string = '';
 
 		zeichen = eingabe_satz.split('');
 
-		for (let i: number = 0; i < zeichen.length; i++) {
+		for (let i: number = 1; i <= zeichen.length; i++) {
 			rev_zeichen += zeichen[zeichen.length - i];
 		}
 
@@ -32,11 +32,11 @@ namespace L01_Worteverdreher {
 
 	function reverseWords(eingabe_satz: string): string {
 		let woerter: string[];
-		let rev_woerter: string;
+		let rev_woerter: string = '';
 
 		woerter = eingabe_satz.split(' ');
 
-		for (let i: number = 0; i < woerter.length; i++) {
+		for (let i: number = 1; i <= woerter.length; i++) {
 			rev_woerter += woerter[woerter.length - i] + ' ';
 		}
 
