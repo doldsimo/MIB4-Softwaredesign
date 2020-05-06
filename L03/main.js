@@ -24,7 +24,6 @@ var L03_Zufallsgedicht;
         objects.splice(random_object_number, 1);
         let verse = random_subject + ' ' + random_verb + ' ' + random_object;
         verses.push(verse);
-        // console.log(verses);
     }
 })(L03_Zufallsgedicht || (L03_Zufallsgedicht = {}));
 //# sourceMappingURL=main.js.map

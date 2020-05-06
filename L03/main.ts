@@ -6,7 +6,7 @@ namespace L03_Zufallsgedicht {
 
 	let subject_length: number = subjects.length;
 
-	for (let i:number = 0; i < subject_length; i++) {
+	for (let i: number = 0; i < subject_length; i++) {
 		getVers();
 	}
 
@@ -30,6 +30,5 @@ namespace L03_Zufallsgedicht {
 		let verse: string = random_subject + ' ' + random_verb + ' ' + random_object;
 
 		verses.push(verse);
-		// console.log(verses);
 	}
 }
